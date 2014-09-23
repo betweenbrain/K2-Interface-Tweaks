@@ -24,7 +24,6 @@ class plgSystemK2interfacetweaks extends JPlugin
 		parent::__construct($subject, $config);
 
 		$this->app     = JFactory::getApplication();
-		$this->session = JFactory::getSession();
 	}
 
 	/**
